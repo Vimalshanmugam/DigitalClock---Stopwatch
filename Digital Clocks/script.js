@@ -5,7 +5,7 @@ function displayTime(){
     let mins = dateTime.getMinutes();
     let sec= dateTime.getSeconds();
     let date =dateTime.getDate();
-    let month=dateTime.getMonth();
+    let month=dateTime.getMonth() + 1;
     let year=dateTime.getFullYear();
     
     if(hr>11){
